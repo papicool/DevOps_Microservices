@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "myPayloadStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1rtmau9p79jq2"
+s3_prefix = "myPayloadStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["HelloWorldFunction=963007823518.dkr.ecr.us-east-1.amazonaws.com/helloworldstack78649d3f/helloworldfunction19d43fc4repo"]
