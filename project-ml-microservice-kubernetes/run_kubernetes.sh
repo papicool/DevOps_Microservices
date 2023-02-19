@@ -5,7 +5,7 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath="papamfall/sklear:latest"
+dockerpath="papamfall/sklearn:latest"
 
 
 # Step 2
